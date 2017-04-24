@@ -3,7 +3,8 @@
 @import 'identity/typography';
 
 @import 'elements/base';
-@import 'elements/extends';
+@import 'elements/links';
+@import 'elements/buttons';
 
 @import 'components/api-container';
 @import 'components/testimonial';
@@ -17,5 +18,4 @@
 @import 'compositions/sponsors';
 @import 'compositions/footer';
 
-@import 'pages/capital-one-dev-ex.page';
-@import 'pages/thank-you.page';
+@import 'pages/thank-you';
