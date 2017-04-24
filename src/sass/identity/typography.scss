@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'proxima_novalight_italic';
+  src: url('http://cdn2.hubspot.net/hubfs/482737/fonts/Capital-One/proximanova-lightit-webfont.woff2') format('woff2'),
+       url('http://cdn2.hubspot.net/hubfs/482737/fonts/Capital-One/proximanova-lightit-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url('http://cdn2.hubspot.net/hubfs/482737/fonts/Capital-One/proximanova-reg-webfont.woff2') format('woff2'),
+       url('http://cdn2.hubspot.net/hubfs/482737/fonts/Capital-One/proximanova-reg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_ltsemibold';
+  src: url('http://cdn2.hubspot.net/hubfs/482737/fonts/Capital-One/proximanova-sbold-webfont.woff2') format('woff2'),
+       url('http://cdn2.hubspot.net/hubfs/482737/fonts/Capital-One/proximanova-sbold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_ththin';
+  src: url('http://cdn2.hubspot.net/hubfs/482737/fonts/Capital-One/proximanova-thin-webfont.woff2') format('woff2'),
+       url('http://cdn2.hubspot.net/hubfs/482737/fonts/Capital-One/proximanova-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$base-font: "proxima_nova_rgregular", sans-serif;
+$head-font: "proxima_nova_rgregular", sans-serif;
+$head-font-light: "proxima_nova_ththin", sans-serif;
+$subhead-font: "proxima_nova_ltsemibold", sans-serif;
+$subhead-font-light: "proxima_nova_rgregular", sans-serif;
+$quote-font: "proxima_novalight_italic", sans-serif;
+$button-font: "proxima_nova_rgregular", sans-serif;
+
+body,
+html,
+p {
+  font-family: $base-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $head-font;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1;
+  text-align: center;
+
+  &.light {
+    font-family: $head-font-light;
+  }
+}
+
+h2 {
+  font-size: 36px;
+
+  &.light {
+    font-family: $head-font-light;
+  }
+}
+
+h3 {
+  font-size: 24px;
+
+  &.light {
+    font-family: $head-font-light;
+  }
+}
+
+h4 {
+  font-family: $subhead-font;
+  font-size: 18px;
+
+  &.light {
+    font-family: $subhead-font-light;
+  }
+}
+
+.quote,
+em {
+  font-family: $quote-font;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+p {
+  font-family: $head-font-light;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+ol,
+ul {
+  font-family: $base-font;
+  font-size: 18px;
+  line-height: 26px;
+}

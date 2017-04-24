@@ -1,0 +1,33 @@
+%button {
+  @extend %gutter-margin;
+  display: block;
+  padding: 10px 35px;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  background-color: $primary-color;
+  color: $white;
+  font-family: $base-font;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary-color-light;
+  }
+}
+
+button {
+  @extend %button;
+}
+
+.white-outline-button {
+  border: 3px $white solid;
+  background-color: transparent;
+  color: $white;
+
+  &:hover {
+    border-color: $button-color-hover;
+    background-color: transparent;
+  }
+}

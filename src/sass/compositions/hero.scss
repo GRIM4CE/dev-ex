@@ -1,0 +1,57 @@
+.hero-background {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: $white;
+  text-align: center;
+
+  .logo {
+    img {
+      width: 100%;
+      max-width: 500px;
+      margin: 5rem auto 0;
+      padding: 0 $gutter * 2;
+    }
+  }
+}
+
+.hero-blackout {
+  padding: 50px 0;
+}
+
+.hero-content {
+  .heading-text {
+    margin: 1rem 0;
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+.hero-dark {
+  color: $white;
+}
+
+@media all and (min-width: 37.5rem) {
+  // min-width: 600px
+
+  .hero-background {
+    background-attachment: fixed;
+    background-position: center bottom;
+
+    .logo {
+      img {
+        margin-top: 3rem;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 50rem) {
+  .date-container {
+    padding-top: 3rem;
+
+    .date {
+      margin: .5rem 0;
+    }
+  }
+}

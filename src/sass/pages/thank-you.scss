@@ -1,0 +1,56 @@
+.thank-you-page {
+  .container {
+    position: absolute;
+    top: 50%;
+    padding: $gutter * 2;
+    transform: translateY(-50%);
+    background-color: $white;
+  }
+
+  h1,
+  h3 {
+    margin: 0;
+    font-family: $head-font-light;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: .5rem;
+    color: $black;
+    font-size: 32px;
+  }
+
+  h3 {
+    color: $dark-gray;
+    font-size: 18.72px;
+  }
+
+  .social-media-container {
+    display: flex;
+    justify-content: center;
+
+    i {
+      padding: $gutter * 1.5 $gutter * 2;
+      color: $primary-color;
+      font-size: 24px;
+
+      &:hover {
+        color: $primary-color-light;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 37.5rem) {
+  // min-width: 600px
+  .thank-you-page {
+    background-color: $background-color-dark;
+
+    .container {
+      left: 50%;
+      max-width: 450px;
+      transform: translate(-50%, -50%);
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+*,
+body,
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: $body-color;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.landing.long.summit .hero {
+  padding: 0;
+}
+
+.page-center {
+  max-width: 960px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+//Hubspot Specific
+.widget-type-raw_jinja {
+  min-height: 0 !important;
+} // Removes space from Hubl Template?
