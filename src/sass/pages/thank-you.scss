@@ -31,11 +31,11 @@
 
     i {
       padding: $gutter * 1.5 $gutter * 2;
-      color: $primary-color;
+      color: $primary;
       font-size: 24px;
 
       &:hover {
-        color: $primary-color-light;
+        color: $primary-light;
       }
     }
   }

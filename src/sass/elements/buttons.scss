@@ -5,7 +5,7 @@
   border: 0;
   border-radius: 5px;
   outline: 0;
-  background-color: $primary-color;
+  background-color: $primary;
   color: $white;
   font-family: $base-font;
   font-size: 16px;
@@ -13,7 +13,7 @@
   cursor: pointer;
 
   &:hover {
-    background-color: $primary-color-light;
+    background-color: $primary-light;
   }
 }
 

@@ -7,11 +7,12 @@ $dark-gray: #344553;
 $gray: #cdccd0;
 $light-gray: #e0e0e2;
 
-$primary-color: #18bcf3;
-$primary-color-light: #45c8f4;
+$primary: #18bcf3;
+$primary-light: #45c8f4;
+$primary-dark: #18bcf3;
 
-$secondary-color: #36a0b8;
-$secondary-color-light: #41b1ca;
+$secondary: #36a0b8;
+$secondary-light: #41b1ca;
 
 $background-color-dark: #0f2136;
 $background-color-medium: #22415a;
@@ -29,8 +30,8 @@ $error: #f74444;
 
 // Schedule Colors
 $text-color: $white;
-$panel-color: $primary-color;
-$panel-odd-color: $primary-color-light;
+$panel-color: $primary;
+$panel-odd-color: $primary-light;
 $panel-break-color: #52bde2;
 $panel-text-color: $white;
 
@@ -41,5 +42,5 @@ $panel-odd-color: #7590c2;
 $panel-break-color: #a8b8d5;
 $panel-text-color: $black;
 $shadow-color: #383838;
-$panel-button-color: $secondary-color;
-$panel-button-color-hover: $secondary-color-light;
+$panel-button-color: $secondary;
+$panel-button-color-hover: $secondary-light;

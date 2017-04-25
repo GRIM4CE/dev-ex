@@ -107,7 +107,7 @@
   padding: .5em .8em;
   border: 0;
   border-radius: 5px;
-  background-color: $primary-color;
+  background-color: $primary;
   color: $white;
   font-size: 22px;
   text-shadow: 1px 1px 0 rgba($black, .05);
@@ -115,7 +115,7 @@
   cursor: pointer;
 
   &:hover {
-    background-color: $primary-color-light;
+    background-color: $primary-light;
   }
 }
 @media all and (min-width: 37.5rem) {

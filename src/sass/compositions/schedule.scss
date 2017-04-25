@@ -11,14 +11,14 @@
   .date {
     margin: 1.5rem 0;
     padding-top: 1.5rem;
-    border-top: 2px solid $primary-color;
+    border-top: 2px solid $primary;
   }
 
   .time {
     margin-bottom: 1rem;
 
     span {
-      color: $secondary-color;
+      color: $secondary;
     }
 
     .secondary {
@@ -49,14 +49,14 @@ a {
     display: inline-block;
     margin-bottom: 20px;
     padding: .25rem .5rem;
-    border: 1px $primary-color solid;
+    border: 1px $primary solid;
     border-radius: 20px;
-    color: $primary-color;
+    color: $primary;
     cursor: pointer;
 
     &:hover {
-      border-color: $primary-color-light;
-      color: $primary-color-light;
+      border-color: $primary-light;
+      color: $primary-light;
     }
   }
 }
