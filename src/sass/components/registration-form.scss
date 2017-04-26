@@ -118,6 +118,12 @@
     background-color: $primary-light;
   }
 }
+
+.eventbrite-form {
+  width: 100%;
+  margin-top: 2rem;
+}
+
 @media all and (min-width: 37.5rem) {
   .form-container {
     padding: 0;
@@ -135,5 +141,12 @@
 
   .hs-form {
     margin: 5rem 0;
+  }
+
+  .eventbrite-form {
+    position: absolute;
+    max-width: 600px;
+    margin-top: 30vh;
+    transform: translateY(-30%);
   }
 }
