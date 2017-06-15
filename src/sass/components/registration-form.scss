@@ -3,6 +3,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   height: 100%;
@@ -32,96 +33,11 @@
     transform: translateX(0);
     opacity: 1;
   }
-}
 
-.hbspt-form {
-  position: relative;
-  width: 100%;
-
-  .submitted-message {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: $black;
-    font-family: $head-font-light;
-    font-size: 28px;
-    line-height: 1.4;
+  .form-heading {
+    flex: 100%;
     text-align: center;
   }
-}
-
-.hs-form {
-  .hs-form-field {
-    padding-bottom: 1.5rem;
-    color: $black;
-    font-family: $base-font;
-  }
-
-  label {
-    display: block;
-    margin-bottom: $gutter / 2;
-  }
-
-  .hs-input {
-    width: 100%;
-    height: 40px;
-    margin-top: .25rem;
-    padding: 0 $gutter;
-    border: 1px solid $light-gray;
-    border-radius: 5px;
-    font-family: $base-font;
-    font-size: 16px;
-  }
-
-  textarea {
-    height: 75px !important;
-  }
-
-  .hs-error-msgs {
-    padding-top: .75rem;
-    color: $error;
-    font-size: 14px;
-    font-weight: 200;
-  }
-}
-
-.inputs-list {
-  margin: 0;
-  padding: 0;
-
-  .hs-input {
-    width: initial;
-    height: initial;
-    margin-top: initial;
-    margin-right: 1rem;
-  }
-}
-
-.hs-form-booleancheckbox,
-.hs-form-radio {
-  list-style: none;
-}
-
-.hs-button {
-  width: 100%;
-  padding: .5em .8em;
-  border: 0;
-  border-radius: 5px;
-  background-color: $primary;
-  color: $white;
-  font-size: 22px;
-  text-shadow: 1px 1px 0 rgba($black, .05);
-  box-shadow: 0 2px 4px rgba($black, .1);
-  cursor: pointer;
-
-  &:hover {
-    background-color: $primary-light;
-  }
-}
-
-.eventbrite-form {
-  width: 100%;
-  margin-top: 2rem;
 }
 
 @media all and (min-width: 37.5rem) {
@@ -137,16 +53,14 @@
       width: 600px;
       margin: 0 auto;
     }
-  }
 
-  .hs-form {
-    margin: 5rem 0;
-  }
+    .hs-form {
+      margin: 2rem 0;
+    }
 
-  .eventbrite-form {
-    position: absolute;
-    max-width: 600px;
-    margin-top: 30vh;
-    transform: translateY(-30%);
+    .form-heading {
+      margin: 0;
+      margin-top: 5rem;
+    }
   }
 }
