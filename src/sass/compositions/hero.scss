@@ -4,7 +4,6 @@
 
 .hero-background {
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
   color: $white;
   text-align: center;
@@ -39,9 +38,6 @@
   // min-width: 600px
 
   .hero-background {
-    background-attachment: fixed;
-    background-position: center bottom;
-
     .logo {
       img {
         margin-top: 3rem;
